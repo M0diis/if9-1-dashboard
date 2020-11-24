@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App()
+{
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <textarea id="name" name="name" rows="1" cols="50"></textarea>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+
     </div>
   );
 }
